@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Raga Designers</title>
+
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+  <div class="container header__wrapper">
+
+    <div class="logo">RagaDesigners</div>
+
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="nav__toggle" id="toggle">☰</button>
+
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="container hero__content">
+    <h1>We Build Modern Digital Experiences</h1>
+    <p>Clean UI. Strong UX. Scalable Web Solutions.</p>
+
+    <div class="hero__actions">
+      <a href="#work" class="btn btn--primary">View Work</a>
+      <a href="#contact" class="btn btn--outline">Contact</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section" id="about">
+  <div class="container grid grid--2">
+
+    <div>
+      <h2>About Us</h2>
+      <p>
+        We are a creative digital studio specializing in UI/UX design, branding, and web development.
+      </p>
+    </div>
+
+    <img src="assets/images/about.jpg" alt="about image"/>
+
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="section section--alt" id="services">
+  <div class="container">
+
+    <h2 class="section__title">Services</h2>
+
+    <div class="grid grid--3">
+
+      <div class="card">
+        <h3>UI/UX</h3>
+        <p>Modern interface design</p>
+      </div>
+
+      <div class="card">
+        <h3>Web Dev</h3>
+        <p>Responsive websites</p>
+      </div>
+
+      <div class="card">
+        <h3>Branding</h3>
+        <p>Identity systems</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= WORK ================= -->
+<section class="section" id="work">
+  <div class="container">
+
+    <h2 class="section__title">Our Work</h2>
+
+    <div class="grid grid--3" id="portfolio"></div>
+
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section section--alt" id="contact">
+  <div class="container">
+
+    <h2 class="section__title">Contact</h2>
+
+    <form id="form" class="form">
+
+      <input type="text" placeholder="Name" required/>
+      <input type="email" placeholder="Email" required/>
+      <textarea placeholder="Message"></textarea>
+
+      <button class="btn btn--primary">Send</button>
+
+    </form>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container">
+    © 2026 Raga Designers
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
